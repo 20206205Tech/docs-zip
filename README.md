@@ -170,11 +170,17 @@ Trong repo github `data-pipeline-vbplnew, data-pipeline-phapdien`, GitHub Action
 
 Trong repo github `data-pipeline-phapdien-service, data-pipeline-vbplnew-service`, GitHub Actions sẽ tự động cấu hình dự án trong Vercel và cấu hình domain trong Cloudflare tương tự như api-gateway-http-log.
 
-### Gói thư viện
+### Mã nguồn gói thư viện
 
 Trong repo github `20206205tech-nestjs-auth, 20206205tech-nestjs-common, 20206205tech-python-auth`, GitHub Actions sẽ tự động xuất bản gói thư viện chung cho các dịch vụ giúp dễ dàng quản lý và tái sử dụng mã nguồn.
 
-### Đường ống dữ liệu Data pipeline
+### Mã nguồn giao diện
+
+Trong repo github `code-fe-ui`, GitHub Actions sẽ tự động cấu hình dự án trong Vercel và cấu hình domain trong Cloudflare tương tự như api-gateway-http-log.
+
+### Mã nguồn Kubernetes
+
+Trong repo github `gitops-argocd`, ArgoCD sẽ theo dõi thay đổi và quản lý cấu hình kubernetes theo các file cấu hình YAML.
 
 ### Đường ống dữ liệu Data pipeline
 

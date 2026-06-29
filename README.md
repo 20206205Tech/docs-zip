@@ -2,7 +2,7 @@
 
 ## Cấu hình các biến bí mật trong Doppler
 
-Trong Doppler 4 dự án `infra, kong-api-gateway,  supabase,  20206205tech` để chia nhỏ theo từng mục đích khác nhau
+Trong Doppler 4 dự án `infra, kong-api-gateway, supabase, 20206205tech` để chia nhỏ theo từng mục đích khác nhau
 
 ### Cấu hình về infra
 

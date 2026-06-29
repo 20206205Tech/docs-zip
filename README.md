@@ -4,7 +4,7 @@
 
 Trong Doppler 4 dự án `infra, kong-api-gateway, supabase, 20206205tech` để chia nhỏ theo từng mục đích khác nhau
 
-### Cấu hình về infra
+### Cấu hình Doppler về infra
 
 Trong dự án infra sử dụng cấu hình:
 
@@ -30,7 +30,7 @@ Trong dự án infra sử dụng cấu hình:
 
 Trong repo github `infra-by-terraform`, GitHub Actions chạy terraform tạo các hạ tầng cần thiết của dự án.
 
-### Cấu hình về kong-api-gateway
+### Cấu hình Doppler về kong-api-gateway
 
 Trong dự án `kong-api-gateway` sử dụng cấu hình:
 
@@ -45,7 +45,7 @@ Trong dự án `kong-api-gateway` sử dụng cấu hình:
 
 Vì Render bản miễn phí không hỗ trợ terraform nên sẽ thực hiện triển khai thủ công Kong API Gateway trên giao diện Web.
 
-### Cấu hình về http-log
+### Cấu hình Doppler về http-log
 
 Trong Doppler tạo dự án `kong-api-gateway` với cấu hình http-log:
 
@@ -59,7 +59,7 @@ Trong Doppler tạo dự án `kong-api-gateway` với cấu hình http-log:
 
 Trong repo github `api-gateway-http-log`, GitHub Actions sẽ tự động chạy kiểm thử đẩy kết quả lên CodeCov, cấu hình dự án api-gateway-http-log trong Vercel và cấu hình domain trong Cloudflare.
 
-### Cấu hình về 20206205tech
+### Cấu hình Doppler về 20206205tech
 
 Trong dự án 20206205tech sử dụng cấu hình:
 
@@ -152,7 +152,7 @@ Trong dự án 20206205tech sử dụng cấu hình:
 
 Các biến bí mật này dùng cho các dịch vụ trong hệ thống.
 
-### Cấu hình về supabase
+### Cấu hình Doppler về supabase
 
 Trong dự án supabase sử dụng cấu hình:
 
